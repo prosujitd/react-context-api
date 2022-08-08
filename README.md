@@ -53,7 +53,7 @@ export default function App() {
 function User() {
   return (
     <UserContext.Consumer>
-      {value => <h1>{value}</h1>} 
+      {value => {value}} 
     </UserContext.Consumer>
   )
 }
